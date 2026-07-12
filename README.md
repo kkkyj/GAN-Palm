@@ -100,11 +100,11 @@ The output `G_best.pt` (`models/gan_frozen_cls_v10/checkpoints/`) is the final m
 | `train_classifier.py` | long table + background | **train the frozen classifier C** → `C_best.pt` |
 | `train_g_with_classifier.py` | long table + background + frozen C | **classifier-guided generator training** → `G_best.pt` (final model) |
 | `eval_gan_discriminator.py` | model + long table + background | scoring & evaluation → Figure 2 data (`scores.npz`, etc.) |
-| `plot_figure2_gan_main.py` | evaluation result directory | **render Figure 2** |
+| `plot_figure2_gan_main.py` | evaluation result directory | **render Figure 3** |
 | `make_figure3_noesm.py` | model + long table + background | Figure 3 scoring / positional enrichment / PWM |
 | `analyze_wt_ko_delta_vs_fake.py` | long table + fake sequences | background-corrected WT/KO delta analysis |
-| `plot_figure3.py` | fig3 analysis + heatmap dir | **render Figure 3 (HeLa)** |
-| `plot_figure3_panc1.py` | extracted fig3 CSVs | **render Figure 3 (PANC-1)** |
+| `plot_figure3.py` | fig3 analysis + heatmap dir | **render Figure 4 (HeLa)** |
+| `plot_figure3_panc1.py` | extracted fig3 CSVs | **render Figure 4 (PANC-1)** |
 
 ### Legacy / experimental `code/archive/` (not part of the main pipeline; kept as a record of method evolution)
 | Script | Purpose |
