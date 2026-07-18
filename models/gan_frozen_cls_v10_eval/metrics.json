@@ -1,0 +1,21 @@
+{
+  "n_real": 50000,
+  "n_fake": 50000,
+  "n_pos": 826,
+  "n_neg": 49174,
+  "ckpt_D": "/mnt/lijy/palmitoylation/runs/gan_frozen_cls_v10/checkpoints/D_best.pt",
+  "ckpt_G": "/mnt/lijy/palmitoylation/runs/gan_frozen_cls_v10/checkpoints/G_best.pt",
+  "temperature": 1.0,
+  "top_k": 0,
+  "pos_vs_neg_roc_auc": 0.9783006305326216,
+  "pos_vs_neg_pr_auc": 0.46986904975422994,
+  "pos_vs_fake_roc_auc": 0.035393208232445524,
+  "pos_vs_fake_pr_auc": 0.008311663747721644,
+  "neg_vs_fake_roc_auc": 0.0007930648310082562,
+  "neg_vs_fake_pr_auc": 0.3036635681028433,
+  "mean_D_pos": 0.9327991604804993,
+  "mean_D_neg": 0.21843527257442474,
+  "mean_D_fake": 0.9962332248687744,
+  "real_vs_fake_roc_auc": 0.0013646592000000001,
+  "real_vs_fake_pr_auc": 0.30688246223465365
+}
