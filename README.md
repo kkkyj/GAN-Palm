@@ -43,7 +43,7 @@ This repository hosts the data, code and model for the palmitoylation generative
 ---
 
 ## Data
-As the work has not yet been published, the raw data are currently kept private.
+The datasets are deposited at Zenodo (https://doi.org/10.5281/zenodo.21426994).
 The model operates on **site-level palmitoylation data**: a **101-residue window** centered on each
 cysteine (`seq101`, with position 51 fixed to C).
 The final model uses a **"frozen-classifier-guided generation"** approach, in three steps:
